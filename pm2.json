@@ -1,0 +1,66 @@
+{
+    "apps": [{
+        "name": "API",
+        "script": "src/services/api/index.js",
+        "env": {
+            "NODE_ENV": "dev"
+        },
+        "watch": true,
+    }, {
+        "name": "BROKER",
+        "script": "src/services/broker/index.js",
+        "env": {
+            "NODE_ENV": "dev"
+        },
+        "watch": true,
+    }, {
+        "name": "WORKER",
+        "script": "src/services/worker/index.js",
+        "env": {
+            "NODE_ENV": "dev"
+        },
+        "watch": true,
+    }, {
+        "name": "INSTRUCTOR",
+        "script": "src/services/instructor/index.js",
+        "env": {
+            "NODE_ENV": "dev"
+        },
+        "watch": true,
+    }, {
+        "name": "VIDEO",
+        "script": "src/services/video/index.js",
+        "env": {
+            "NODE_ENV": "dev"
+        },
+        "watch": true,
+    }, {
+        "name": "COURSE",
+        "script": "src/services/course/index.js",
+        "env": {
+            "NODE_ENV": "dev"
+        },
+        "watch": true,
+    }, {
+        "name": "SESSION",
+        "script": "src/services/session/index.js",
+        "env": {
+            "NODE_ENV": "dev"
+        },
+        "watch": true,
+    }, {
+        "name": "INFO",
+        "script": "src/services/info/index.js",
+        "env": {
+            "NODE_ENV": "dev"
+        },
+        "watch": true,
+    }, {
+        "name": "USER",
+        "script": "src/services/user/index.js",
+        "env": {
+            "NODE_ENV": "dev"
+        },
+        "watch": true,
+    }]
+}

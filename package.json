@@ -1,0 +1,62 @@
+{
+  "name": "node-spinal",
+  "version": "0.12.0",
+  "description": "nodejs and spinal microservice framework",
+  "main": "index.js",
+  "engines": {
+    "node": "6.3.1",
+    "npm": "4.5.0"
+  },
+  "scripts": {
+    "start": "pm2 start pm2.json && pm2 logs all",
+    "dev": "pm2 delete all && pm2 start pm2.json && pm2 logs all",
+    "eslint": "eslint src/***",
+    "test": "mocha spec/***"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ak1103dev/node-spinal.git"
+  },
+  "keywords": [
+    "nodejs",
+    "spinal",
+    "microservices"
+  ],
+  "author": "ak1103",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/ak1103dev/node-spinal/issues"
+  },
+  "homepage": "https://github.com/ak1103dev/node-spinal#readme",
+  "dependencies": {
+    "app-module-path": "^2.1.0",
+    "body-parser": "^1.15.2",
+    "compression": "^1.6.2",
+    "connect-timeout": "^1.8.0",
+    "cookie-parser": "^1.4.3",
+    "cron": "^1.2.1",
+    "express": "^4.15.2",
+    "express-useragent": "^1.0.7",
+    "htmlparser": "^1.7.7",
+    "joi": "^10.2.2",
+    "lodash": "^4.17.2",
+    "moment-timezone": "^0.5.11",
+    "mongoose": "^4.7.2",
+    "mongoose-deep-populate": "^3.0.0",
+    "morgan": "^1.7.0",
+    "phantomjs-prebuilt": "^2.1.12",
+    "pm2": "^2.4.5",
+    "randomstring": "^1.1.5",
+    "spinal": "^0.4.21",
+    "superagent": "^3.3.2",
+    "winston": "^2.3.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "eslint": "^3.12.1",
+    "eslint-config-standard": "^6.2.1",
+    "eslint-plugin-promise": "^3.4.0",
+    "eslint-plugin-standard": "^2.0.1",
+    "mocha": "^3.2.0"
+  }
+}

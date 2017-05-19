@@ -1,0 +1,17 @@
+{
+  "extends": "standard",
+  "plugins": [
+    "standard",
+    "promise"
+  ],
+  "globals": {
+    "describe": false,
+    "it": false,
+    "phantom": false
+  },
+  "rules": {
+    "semi": ["error", "always"],
+    "no-console": ["warn"],
+    "no-var": ["warn"]
+  }
+}
